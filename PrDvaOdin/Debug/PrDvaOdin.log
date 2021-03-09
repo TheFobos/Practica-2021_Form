@@ -1,0 +1,17 @@
+﻿Сборка начата 07.03.2021 19:40:06.
+     1>Проект "D:\Pract2021\PrDvaOdin\PrDvaOdin\PrDvaOdin.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\PrDvaOdin.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CrFile.cpp
+         CrFile.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Pract2021\PrDvaOdin\Debug\PrDvaOdin.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\Pract2021\PrDvaOdin\Debug\PrDvaOdin.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Pract2021\PrDvaOdin\Debug\PrDvaOdin.lib" /MACHINE:X86 Debug\PrDvaOdin.res
+         Debug\CrFile.obj
+         Debug\PrDvaOdin.obj
+         Debug\PrDvaOdinDlg.obj
+         Debug\stdafx.obj
+         PrDvaOdin.vcxproj -> D:\Pract2021\PrDvaOdin\Debug\PrDvaOdin.exe
+     1>Сборка проекта "D:\Pract2021\PrDvaOdin\PrDvaOdin\PrDvaOdin.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.06
