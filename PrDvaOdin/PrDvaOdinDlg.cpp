@@ -8,6 +8,8 @@
 #include "afxdialogex.h"
 #include "CrFile.h"
 #include <ctime>
+#include "Doalog1.h"
+Doalog1 dio;
 
 
 #ifdef _DEBUG
@@ -154,13 +156,13 @@ BEGIN_MESSAGE_MAP(CPrDvaOdinDlg, CDialogEx)
 	ON_EN_CHANGE(IDC_RICHEDIT21, &CPrDvaOdinDlg::OnEnChangeRichedit21)
 	ON_EN_CHANGE(IDC_RICHEDIT26, &CPrDvaOdinDlg::OnEnChangeRichedit26)
 	ON_EN_CHANGE(IDC_RICHEDIT41, &CPrDvaOdinDlg::OnEnChangeRichedit41)
-	ON_BN_CLICKED(IDOK, &CPrDvaOdinDlg::OnBnClickedOk)
 	ON_COMMAND(ID_32775, &CPrDvaOdinDlg::On32775)
 	ON_COMMAND(ID_32780, &CPrDvaOdinDlg::On32780)
 	ON_COMMAND(ID_32783, &CPrDvaOdinDlg::On32783)
 	ON_COMMAND(ID_Menu32784, &CPrDvaOdinDlg::OnMenu32784)
 	ON_COMMAND(ID_32785, &CPrDvaOdinDlg::On32785)
 	ON_COMMAND(ID_32772, &CPrDvaOdinDlg::On32772)
+	ON_COMMAND(ID_32786, &CPrDvaOdinDlg::On32786)
 END_MESSAGE_MAP()
 
 
@@ -358,14 +360,6 @@ void CPrDvaOdinDlg::OnEnChangeRichedit41()
 }
 
 
-void CPrDvaOdinDlg::OnBnClickedOk()
-{
-	UpdateData();
-	CrFile sendvars;
-	sendvars.OutputFile(&m_innv, &m_corrv, &m_nalperv, &m_kodkatnalv, &m_predvnalorgkodv, &m_kodoktmov, &m_famv, &m_imyav, &m_otchv, &m_telefv, &m_sumpreddohv, &m_listovv, &m_nalplatprednalplatv, &m_fampredv, &m_imyapredv, &m_otchpredv, &m_orgpredv, &m_datadenv, &m_datamesv, &m_datagodv, &m_dokpolnpredv, &m_deklprkodv, &m_zaregzanv);
-	UpdateData(false);
-}
-
 
 void CPrDvaOdinDlg::On32775()
 {
@@ -483,4 +477,10 @@ void CPrDvaOdinDlg::On32772()
 	m_zaregzanv = "";
 
 	UpdateData(false);
+}
+
+
+void CPrDvaOdinDlg::On32786()
+{
+	dio.DoModal();
 }

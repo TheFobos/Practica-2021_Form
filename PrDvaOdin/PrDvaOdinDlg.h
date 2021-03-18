@@ -95,4 +95,5 @@ public:
 	afx_msg void OnMenu32784();
 	afx_msg void On32785();
 	afx_msg void On32772();
+	afx_msg void On32786();
 };

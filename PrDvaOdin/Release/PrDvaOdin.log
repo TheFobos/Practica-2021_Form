@@ -1,11 +1,12 @@
-﻿Сборка начата 09.03.2021 21:47:18.
+﻿Сборка начата 15.03.2021 23:22:54.
      1>Проект "D:\Pract2021\PrDvaOdin\PrDvaOdin\PrDvaOdin.vcxproj" в узле 2 (целевые объекты Build).
-     1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Электронная форма НДФЛ 4.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt PrDvaOdinDlg.cpp
-         PrDvaOdinDlg.cpp
+     1>ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0419" /IRelease\ /nologo /fo"Release\PrDvaOdin.res" PrDvaOdin.rc 
        Link:
          D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Pract2021\PrDvaOdin\Release\Электронная форма НДФЛ 4.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\Pract2021\PrDvaOdin\Release\Электронная форма НДФЛ 4.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Pract2021\PrDvaOdin\Release\Электронная форма НДФЛ 4.lib" /MACHINE:X86 /SAFESEH Release\PrDvaOdin.res
          Release\CrFile.obj
+         Release\Doalog1.obj
+         Release\msflexgrid1.obj
          Release\PrDvaOdin.obj
          Release\PrDvaOdinDlg.obj
          Release\stdafx.obj
@@ -16,4 +17,4 @@
 
 Сборка успешно завершена.
 
-Затраченное время: 00:00:03.78
+Затраченное время: 00:00:02.68

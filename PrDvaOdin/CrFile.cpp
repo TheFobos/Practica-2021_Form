@@ -160,7 +160,7 @@ void CrFile::InputFile(CString *innv, CString *corrv, CString *nalperv, CString 
 
 	wchar_t awcBuffer[1024];
 	WideCharToMultiByte(CP_UTF8, 0, szFile, -1, temp, sizeof(temp), '\0', '\0');
-	MultiByteToWideChar(CP_UTF8, 0, FormatFileName(temp), -1, awcBuffer, sizeof(awcBuffer));
+	//MultiByteToWideChar(CP_UTF8, 0, FormatFileName(temp), -1, awcBuffer, sizeof(awcBuffer));
 
 
 	FILE * ptrFile = fopen(temp, "r");
